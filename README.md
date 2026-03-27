@@ -19,7 +19,7 @@ YC CEO Garry Tan 用 Gstack 60 天输出了 60 万行代码。这个数字令人
 最重要的是他分享的方法论：
 - **Boil the Lake** — 让完整实现的边际成本趋近于零
 - **Search Before Building** — 建前先搜，不重复发明轮子
-- **28 个专职角色** — 把 AI 变成一个虚拟工程团队
+- **27 个专职角色** — 把 AI 变成一个虚拟工程团队
 
 这些方法论，只有在实践中才能真正理解。这个 Cookbook 就是实践的记录。
 
@@ -40,7 +40,7 @@ docs/
 ├── experience/       # 实战经验
 ├── learning/        # 学习笔记
 ├── engineering/      # 工程实践
-├── skills/          # Gstack 28 个技能详解
+├── skills/          # Gstack 27 个技能详解
 └── changelog/       # 变更记录
 ```
 
@@ -48,7 +48,7 @@ docs/
 
 ## 开始
 
-1. 阅读 [Gstack README 中文解读](docs/learning/gstack-readme解读.md)
+1. 阅读 [Gstack README 深度解读](docs/learning/gstack-readme深度解读.md)
 2. 跟着目录顺序，逐个研究每个技能
 3. 用 Gstack 的流程来写 Gstack 的文档
 
