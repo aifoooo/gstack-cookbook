@@ -1,65 +1,62 @@
-# Gstack Cookbook
+# gstack-cookbook
 
-> 用 Gstack 学习 Gstack，在实践中理解 AI 编程工作流的精髓。
+> 用 OpenClaw（龙虾）学习 Gstack，边学边写，边练边会。
 
----
+## 项目背景
 
-## 这是什么
+[Gstack](https://github.com/garrytan/gstack) 是 YC CEO Garry Tan 开源的 AI 软件工程流水线，它把 Claude Code/Codex 变成了一整个虚拟工程团队，从产品设计、架构评审、代码开发、测试验证到上线发布全流程覆盖，让单个开发者具备媲美20人团队的研发效率。
 
-Gstack Cookbook 是一个 **Gstack 实战学习笔记库**。
+本项目是我学习 Gstack 的实战笔记库，我用 OpenClaw（龙虾）作为学习工具，通过「以写促学 + 实操落地」的方式，把 Gstack 的使用经验、踩坑记录、二次开发技巧沉淀下来，分享给所有想要提升 AI 研发效率的开发者。
 
-通过系统性地研究 Gstack 的每一个组件、每一个工作流、每一个工具，将 AI 编程方法论内化为自己的开发习惯。
+## 我的学习思路
 
----
+### 1. 以写促学
+每学习一个 Gstack 技能，我就输出一篇对应的学习笔记，把原理、使用方法、实操案例、踩坑记录都写清楚，倒逼自己彻底吃透每个功能点。
 
-## 为什么做这个
+### 2. 实操落地
+不做纸上谈兵，所有学习内容都要实际跑通：从安装配置、技能调用、自定义技能开发，到结合自己的项目落地使用，真正把 Gstack 变成自己的效率工具。
 
-YC CEO Garry Tan 用 Gstack 60 天输出了 60 万行代码。这个数字令人震撼，但不是最重要的。
-
-最重要的是他分享的方法论：
-- **Boil the Lake** — 让完整实现的边际成本趋近于零
-- **Search Before Building** — 建前先搜，不重复发明轮子
-- **27 个专职角色** — 把 AI 变成一个虚拟工程团队
-
-这些方法论，只有在实践中才能真正理解。这个 Cookbook 就是实践的记录。
-
----
-
-## 核心原则
-
-1. **用 Gstack 学习 Gstack** — 所有的研究、规划、审核、复盘，都尽量通过 Gstack 本身来完成
-2. **边研究边实践** — 每一个概念都要落地验证，不是纯理论
-3. **系统性** — 从 README 开始，到每一个文件，逐个拆解，不留盲区
-
----
-
-## 目录结构
+## 项目目录
 
 ```
-docs/
-├── experience/       # 实战经验
-├── learning/        # 学习笔记
-├── engineering/      # 工程实践
-├── skills/          # Gstack 27 个技能详解
-└── changelog/       # 变更记录
+├── docs/
+│   ├── 00-入门系列/        # Gstack 入门安装、配置、快速上手
+│   ├── 01-技能详解/        # 每个 Gstack 技能的原理、用法、实战案例
+│   ├── 02-进阶实践/        # 多并行 sprint、自定义技能、二次开发
+│   ├── 03-落地案例/        # 结合实际项目使用 Gstack 的实战案例
+│   └── 04-深度解读/        # 对 Gstack 设计理念、架构原理的深度分析
+├── scripts/                # 自用的 Gstack 配置、扩展脚本
+└── README.md               # 项目说明
 ```
 
----
+## 目录规划
 
-## 开始
+### 入门系列
+- [Gstack 快速安装指南](docs/00-入门系列/Gstack快速安装指南.md)
+- [Gstack 核心概念扫盲](docs/00-入门系列/Gstack核心概念扫盲.md)
+- [我的第一个 Gstack 实战项目](docs/00-入门系列/我的第一个Gstack实战项目.md)
 
-1. 阅读 [Gstack README 深度解读](docs/learning/gstack-readme深度解读.md)
-2. 跟着目录顺序，逐个研究每个技能
-3. 用 Gstack 的流程来写 Gstack 的文档
+### 技能详解
+> 覆盖 Gstack 全部 28 个技能的详细用法
+- [产品设计类技能：/office-hours /plan-ceo-review /plan-design-review](docs/01-技能详解/产品设计类技能.md)
+- [架构开发类技能：/plan-eng-review /review /investigate /codex](docs/01-技能详解/架构开发类技能.md)
+- [设计类技能：/design-consultation /design-review /design-shotgun](docs/01-技能详解/设计类技能.md)
+- [测试安全类技能：/qa /qa-only /cso /canary /benchmark](docs/01-技能详解/测试安全类技能.md)
+- [上线发布类技能：/ship /land-and-deploy /document-release /retro](docs/01-技能详解/上线发布类技能.md)
+- [工具类技能：/browse /setup-browser-cookies /autoplan /careful /freeze /guard /gstack-upgrade](docs/01-技能详解/工具类技能.md)
 
----
+### 进阶实践
+- [Gstack 多并行 Sprint 配置实战](docs/02-进阶实践/Gstack多并行Sprint配置实战.md)
+- [自定义 Gstack 技能开发指南](docs/02-进阶实践/自定义Gstack技能开发指南.md)
+- [Gstack + OpenClaw 组合使用技巧](docs/02-进阶实践/Gstack+OpenClaw组合使用技巧.md)
+- [Gstack 性能优化与故障排查](docs/02-进阶实践/Gstack性能优化与故障排查.md)
 
-## 关于
+### 深度解读
+- [Gstack README 深度解读](docs/04-深度解读/Gstack-README深度解读.md)
+- [Gstack 架构设计原理分析](docs/04-深度解读/Gstack架构设计原理分析.md)
+- [Garry Tan 的 AI 编程哲学](docs/04-深度解读/Garry-Tan的AI编程哲学.md)
 
-本仓库记录 Gstack 的学习过程、实战经验和方法论研究。
+## 关于我
+本项目由我和 OpenClaw（龙虾）共同维护，所有内容均为实战沉淀，欢迎提交 Issue 和 PR 交流。
 
----
-
-## 贡献
-
-欢迎提交 Issue 和 Pull Request 分享你的 Gstack 使用心得。
+**口号：用 AI 提升研发效率，让每个开发者都能顶一个团队。**
