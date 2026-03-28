@@ -6,7 +6,7 @@
 
 [Gstack](https://github.com/garrytan/gstack) 是 YC CEO Garry Tan 开源的 AI 软件工程流水线，它把 Claude Code/Codex 变成了一整个虚拟工程团队，从产品设计、架构评审、代码开发、测试验证到上线发布全流程覆盖，让单个开发者具备媲美 20 人团队的研发效率。
 
-本项目是我的 Gstack 实战学习笔记库，核心聚焦于 Gstack 核心设计理念和角色体系的深度拆解，把学到的 Agent 构建能力沉淀下来，可以迁移到任意 AI 项目中。
+本项目是 Gstack 实战学习笔记库，核心聚焦于 Gstack 核心设计理念和角色体系的深度拆解，沉淀可迁移到任意 AI 项目的 Agent 构建能力。
 
 ## 内容规划
 
@@ -44,7 +44,7 @@
 27. [/connect-chrome：Chrome 控制器](<docs/02-角色分析/27-connect-chrome.md>)
 28. [/gstack-upgrade：自动升级工具](<docs/02-角色分析/28-gstack-upgrade.md>)
 
-## 关于我
-本项目为个人学习沉淀，所有内容均来自实战验证，欢迎提交 Issue 和 PR 交流。
+## 关于
+所有内容均来自实战验证，欢迎提交 Issue 和 PR 交流。
 
 **口号：用 AI 提升研发效率，让每个开发者都能顶一个团队。**
