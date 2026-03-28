@@ -45,6 +45,6 @@
 28. [/gstack-upgrade：自动升级工具](<docs/02-角色分析/28-gstack-upgrade.md>)
 
 ## 关于
-所有内容均来自实战验证，欢迎提交 Issue 和 PR 交流。
+内容为 Gstack 学习沉淀，持续更新中，欢迎提交 Issue 和 PR 交流。
 
 **口号：用 AI 提升研发效率，让每个开发者都能顶一个团队。**
