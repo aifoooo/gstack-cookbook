@@ -1,4 +1,4 @@
-# Gstack README 深度解读
+# Gstack README 解读
 
 ## 一、Gstack 是什么？
 Gstack 是 Y Combinator CEO Garry Tan 开源的 **AI 原生软件工程流水线**，它把 Claude Code/Codex 等 AI 编程助手变成了一整套虚拟工程团队，实现了从产品设计、架构评审、代码开发、测试验证到上线发布的全流程自动化，让单个开发者具备媲美 20 人团队的研发效率。

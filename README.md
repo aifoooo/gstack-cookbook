@@ -11,7 +11,7 @@
 ## 内容规划
 
 ### 第一篇：基础认知
-- [Gstack README 深度解读](<docs/01-README深度解读/Gstack README 深度解读.md>)
+- [Gstack README 解读](<docs/01-README解读/Gstack README 解读.md>)
 
 ### 第二篇：28 个角色深入分析
 按 Gstack 官方定义的顺序逐个拆解每个虚拟角色（技能）的设计逻辑、职责边界、使用场景、输入输出规范：
