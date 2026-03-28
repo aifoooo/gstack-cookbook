@@ -6,63 +6,44 @@
 
 [Gstack](https://github.com/garrytan/gstack) 是 YC CEO Garry Tan 开源的 AI 软件工程流水线，它把 Claude Code/Codex 变成了一整个虚拟工程团队，从产品设计、架构评审、代码开发、测试验证到上线发布全流程覆盖，让单个开发者具备媲美 20 人团队的研发效率。
 
-本项目是我的 Gstack 实战学习笔记库，通过「以写促学 + 实操落地」的方式，把 Gstack 的使用经验、设计理念、角色体系、二次开发技巧沉淀下来，分享给所有想要提升 AI 研发效率的开发者。
+本项目是我的 Gstack 实战学习笔记库，核心聚焦于 Gstack 核心设计理念和角色体系的深度拆解，把学到的 Agent 构建能力沉淀下来，可以迁移到任意 AI 项目中。
 
-## 我的学习思路
-我不追求快速上手工具，而是先吃透底层原理，把 Agent 构建能力打扎实，学习分为三个阶段：
+## 内容规划
 
-### 第一阶段：基础认知
-读透 Gstack 官方 README，理解它的设计理念、整体研发流程、适用场景，搞清楚它到底解决了什么问题，和其他 AI 编程工具有什么区别。
+### 第一篇：基础认知
+- [Gstack README 深度解读](docs/01-README深度解读/Gstack README 深度解读.md)
 
-### 第二阶段：角色拆解
-逐个深入学习 Gstack 28 个技能（虚拟角色）的定义、职责、输入输出、工作逻辑和使用场景，搞清楚每个角色在整个研发流程中扮演什么角色，如何和其他角色协作。这部分是核心，掌握了 Agent 角色设计的方法论，以后可以迁移到任何 AI 项目中。
-
-### 第三阶段：落地实践
-等把所有角色和流程都吃透之后，再根据实际需求选择落地载体：可以在 Claude Code 中使用，也可以把这套角色体系适配到其他 AI 平台中，最终应用到自己的工作和项目里。
-
-### 学习方法
-1. **以写促学**：每学习一个技能，就输出一篇对应的学习笔记，把原理、使用方法、实操案例、踩坑记录都写清楚，倒逼自己彻底吃透每个功能点。
-2. **实操落地**：不做纸上谈兵，所有学习内容都要实际跑通验证，真正把学到的 Agent 构建能力变成自己的东西。
-
-## 项目目录
-
-```
-├── docs/
-│   ├── 01-基础认知/        # 第一阶段：Gstack 基础概念、安装、核心流程
-│   ├── 02-角色详解/        # 第二阶段：28 个虚拟角色/技能的原理、职责、用法
-│   ├── 03-落地实践/        # 第三阶段：不同平台使用、项目实战、自定义开发
-│   └── 04-深度思考/        # 设计理念、架构分析、AI 编程哲学
-├── scripts/                # Gstack 配置、扩展脚本、工具集合
-└── README.md               # 项目说明
-```
-
-## 目录规划
-
-### 01-基础认知（第一阶段）
-- [Gstack 核心概念扫盲](docs/01-基础认知/Gstack 核心概念扫盲.md)
-- [Gstack 快速安装指南](docs/01-基础认知/Gstack 快速安装指南.md)
-- [Gstack 核心研发流程解析](docs/01-基础认知/Gstack 核心研发流程解析.md)
-- [我的第一个 Gstack 实战项目](docs/01-基础认知/我的第一个 Gstack 实战项目.md)
-
-### 02-角色详解（第二阶段）
-> 覆盖 Gstack 全部 28 个虚拟角色（技能）的深度解析
-- [产品决策类角色：YC 导师/CEO/设计师](docs/02-角色详解/产品决策类角色.md)
-- [技术研发类角色：技术经理/资深工程师/调试专家](docs/02-角色详解/技术研发类角色.md)
-- [质量保障类角色：测试负责人/安全官/SRE/性能工程师](docs/02-角色详解/质量保障类角色.md)
-- [效率工具类角色：浏览器操作/安全护栏/自动评审等](docs/02-角色详解/效率工具类角色.md)
-
-### 03-落地实践（第三阶段）
-- [Gstack 多平台适配指南](docs/03-落地实践/Gstack 多平台适配指南.md)
-- [Gstack 多并行 Sprint 配置实战](docs/03-落地实践/Gstack 多并行 Sprint 配置实战.md)
-- [自定义 Gstack 角色开发指南](docs/03-落地实践/自定义 Gstack 角色开发指南.md)
-- [Gstack 企业级落地实践案例](docs/03-落地实践/Gstack 企业级落地实践案例.md)
-- [Gstack 性能优化与故障排查](docs/03-落地实践/Gstack 性能优化与故障排查.md)
-
-### 04-深度思考
-- [Gstack README 深度解读](docs/04-深度思考/Gstack README 深度解读.md)
-- [Gstack 架构设计原理分析](docs/04-深度思考/Gstack 架构设计原理分析.md)
-- [Garry Tan 的 AI 编程哲学](docs/04-深度思考/Garry Tan 的 AI 编程哲学.md)
-- [AI 原生软件工程未来趋势思考](docs/04-深度思考/AI 原生软件工程未来趋势思考.md)
+### 第二篇：28 个角色深入分析
+按 Gstack 官方定义的顺序逐个拆解每个虚拟角色（技能）的设计逻辑、职责边界、使用场景、输入输出规范：
+1. [/office-hours：YC 创业导师](docs/02-角色分析/01-office-hours.md)
+2. [/plan-ceo-review：产品 CEO](docs/02-角色分析/02-plan-ceo-review.md)
+3. [/plan-eng-review：技术经理](docs/02-角色分析/03-plan-eng-review.md)
+4. [/plan-design-review：资深设计师](docs/02-角色分析/04-plan-design-review.md)
+5. [/design-consultation：设计合伙人](docs/02-角色分析/05-design-consultation.md)
+6. [/review：资深工程师](docs/02-角色分析/06-review.md)
+7. [/investigate：调试专家](docs/02-角色分析/07-investigate.md)
+8. [/design-review：全栈设计师](docs/02-角色分析/08-design-review.md)
+9. [/design-shotgun：设计探索者](docs/02-角色分析/09-design-shotgun.md)
+10. [/qa：测试负责人](docs/02-角色分析/10-qa.md)
+11. [/qa-only：测试专员](docs/02-角色分析/11-qa-only.md)
+12. [/cso：首席安全官](docs/02-角色分析/12-cso.md)
+13. [/ship：发布工程师](docs/02-角色分析/13-ship.md)
+14. [/land-and-deploy：运维工程师](docs/02-角色分析/14-land-and-deploy.md)
+15. [/canary：SRE](docs/02-角色分析/15-canary.md)
+16. [/benchmark：性能工程师](docs/02-角色分析/16-benchmark.md)
+17. [/document-release：技术文档工程师](docs/02-角色分析/17-document-release.md)
+18. [/retro：技术经理](docs/02-角色分析/18-retro.md)
+19. [/browse：测试工程师](docs/02-角色分析/19-browse.md)
+20. [/setup-browser-cookies：会话管理员](docs/02-角色分析/20-setup-browser-cookies.md)
+21. [/autoplan：评审流水线](docs/02-角色分析/21-autoplan.md)
+22. [/codex：跨模型评审专家](docs/02-角色分析/22-codex.md)
+23. [/careful：安全护栏](docs/02-角色分析/23-careful.md)
+24. [/freeze：编辑锁](docs/02-角色分析/24-freeze.md)
+25. [/guard：安全卫士](docs/02-角色分析/25-guard.md)
+26. [/unfreeze：解锁工具](docs/02-角色分析/26-unfreeze.md)
+27. [/connect-chrome：Chrome 控制器](docs/02-角色分析/27-connect-chrome.md)
+28. [/setup-deploy：部署配置工具](docs/02-角色分析/28-setup-deploy.md)
+29. [/gstack-upgrade：自动升级工具](docs/02-角色分析/29-gstack-upgrade.md)
 
 ## 关于我
 本项目为个人学习沉淀，所有内容均来自实战验证，欢迎提交 Issue 和 PR 交流。
