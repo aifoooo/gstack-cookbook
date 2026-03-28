@@ -1,12 +1,12 @@
 # gstack-cookbook
 
-> 用 OpenClaw（龙虾）学习 Gstack，边学边写，边练边会。
+> Gstack 学习实战笔记库，从理论到实战掌握 AI 原生软件工程流水线。
 
 ## 项目背景
 
 [Gstack](https://github.com/garrytan/gstack) 是 YC CEO Garry Tan 开源的 AI 软件工程流水线，它把 Claude Code/Codex 变成了一整个虚拟工程团队，从产品设计、架构评审、代码开发、测试验证到上线发布全流程覆盖，让单个开发者具备媲美20人团队的研发效率。
 
-本项目是我学习 Gstack 的实战笔记库，我用 OpenClaw（龙虾）作为学习工具，通过「以写促学 + 实操落地」的方式，把 Gstack 的使用经验、踩坑记录、二次开发技巧沉淀下来，分享给所有想要提升 AI 研发效率的开发者。
+本项目是我的Gstack实战学习笔记库，通过「以写促学 + 实操落地」的方式，把Gstack的使用经验、设计理念、角色体系、二次开发技巧沉淀下来，分享给所有想要提升AI研发效率的开发者。
 
 ## 我的学习思路
 我不追求快速上手工具，而是先吃透底层原理，把Agent构建能力打扎实，学习分为三个阶段：
@@ -28,43 +28,43 @@
 
 ```
 ├── docs/
-│   ├── 00-入门系列/        # Gstack 入门安装、配置、快速上手
-│   ├── 01-技能详解/        # 每个 Gstack 技能的原理、用法、实战案例
-│   ├── 02-进阶实践/        # 多并行 sprint、自定义技能、二次开发
-│   ├── 03-落地案例/        # 结合实际项目使用 Gstack 的实战案例
-│   └── 04-深度解读/        # 对 Gstack 设计理念、架构原理的深度分析
-├── scripts/                # 自用的 Gstack 配置、扩展脚本
+│   ├── 01-基础认知/        # 第一阶段：Gstack 基础概念、安装、核心流程
+│   ├── 02-角色详解/        # 第二阶段：28个虚拟角色/技能的原理、职责、用法
+│   ├── 03-落地实践/        # 第三阶段：不同平台使用、项目实战、自定义开发
+│   └── 04-深度思考/        # 设计理念、架构分析、AI编程哲学
+├── scripts/                # Gstack 配置、扩展脚本、工具集合
 └── README.md               # 项目说明
 ```
 
 ## 目录规划
 
-### 入门系列
-- [Gstack 快速安装指南](docs/00-入门系列/Gstack快速安装指南.md)
-- [Gstack 核心概念扫盲](docs/00-入门系列/Gstack核心概念扫盲.md)
-- [我的第一个 Gstack 实战项目](docs/00-入门系列/我的第一个Gstack实战项目.md)
+### 01-基础认知（第一阶段）
+- [Gstack 核心概念扫盲](docs/01-基础认知/Gstack核心概念扫盲.md)
+- [Gstack 快速安装指南](docs/01-基础认知/Gstack快速安装指南.md)
+- [Gstack 核心研发流程解析](docs/01-基础认知/Gstack核心研发流程解析.md)
+- [我的第一个 Gstack 实战项目](docs/01-基础认知/我的第一个Gstack实战项目.md)
 
-### 技能详解
-> 覆盖 Gstack 全部 28 个技能的详细用法
-- [产品设计类技能：/office-hours /plan-ceo-review /plan-design-review](docs/01-技能详解/产品设计类技能.md)
-- [架构开发类技能：/plan-eng-review /review /investigate /codex](docs/01-技能详解/架构开发类技能.md)
-- [设计类技能：/design-consultation /design-review /design-shotgun](docs/01-技能详解/设计类技能.md)
-- [测试安全类技能：/qa /qa-only /cso /canary /benchmark](docs/01-技能详解/测试安全类技能.md)
-- [上线发布类技能：/ship /land-and-deploy /document-release /retro](docs/01-技能详解/上线发布类技能.md)
-- [工具类技能：/browse /setup-browser-cookies /autoplan /careful /freeze /guard /gstack-upgrade](docs/01-技能详解/工具类技能.md)
+### 02-角色详解（第二阶段）
+> 覆盖 Gstack 全部 28 个虚拟角色（技能）的深度解析
+- [产品决策类角色：YC导师/CEO/设计师](docs/02-角色详解/产品决策类角色.md)
+- [技术研发类角色：技术经理/资深工程师/调试专家](docs/02-角色详解/技术研发类角色.md)
+- [质量保障类角色：测试负责人/安全官/SRE/性能工程师](docs/02-角色详解/质量保障类角色.md)
+- [效率工具类角色：浏览器操作/安全护栏/自动评审等](docs/02-角色详解/效率工具类角色.md)
 
-### 进阶实践
-- [Gstack 多并行 Sprint 配置实战](docs/02-进阶实践/Gstack多并行Sprint配置实战.md)
-- [自定义 Gstack 技能开发指南](docs/02-进阶实践/自定义Gstack技能开发指南.md)
-- [Gstack + OpenClaw 组合使用技巧](docs/02-进阶实践/Gstack+OpenClaw组合使用技巧.md)
-- [Gstack 性能优化与故障排查](docs/02-进阶实践/Gstack性能优化与故障排查.md)
+### 03-落地实践（第三阶段）
+- [Gstack 多平台适配指南](docs/03-落地实践/Gstack多平台适配指南.md)
+- [Gstack 多并行 Sprint 配置实战](docs/03-落地实践/Gstack多并行Sprint配置实战.md)
+- [自定义 Gstack 角色开发指南](docs/03-落地实践/自定义Gstack角色开发指南.md)
+- [Gstack 企业级落地实践案例](docs/03-落地实践/Gstack企业级落地实践案例.md)
+- [Gstack 性能优化与故障排查](docs/03-落地实践/Gstack性能优化与故障排查.md)
 
-### 深度解读
-- [Gstack README 深度解读](docs/04-深度解读/Gstack-README深度解读.md)
-- [Gstack 架构设计原理分析](docs/04-深度解读/Gstack架构设计原理分析.md)
-- [Garry Tan 的 AI 编程哲学](docs/04-深度解读/Garry-Tan的AI编程哲学.md)
+### 04-深度思考
+- [Gstack README 深度解读](docs/04-深度思考/Gstack-README深度解读.md)
+- [Gstack 架构设计原理分析](docs/04-深度思考/Gstack架构设计原理分析.md)
+- [Garry Tan 的 AI 编程哲学](docs/04-深度思考/Garry-Tan的AI编程哲学.md)
+- [AI 原生软件工程未来趋势思考](docs/04-深度思考/AI原生软件工程未来趋势思考.md)
 
 ## 关于我
-本项目由我和 OpenClaw（龙虾）共同维护，所有内容均为实战沉淀，欢迎提交 Issue 和 PR 交流。
+本项目为个人学习沉淀，所有内容均来自实战验证，欢迎提交 Issue 和 PR 交流。
 
 **口号：用 AI 提升研发效率，让每个开发者都能顶一个团队。**
