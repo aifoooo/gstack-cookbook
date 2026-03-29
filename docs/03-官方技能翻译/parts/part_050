@@ -1,4 +1,0 @@
-## Distribution Plan
-{how users get the deliverable — binary download, package manager, container image, web service, etc.}
-{CI/CD pipeline for building and publishing — or "existing deployment pipeline covers this"}
-
