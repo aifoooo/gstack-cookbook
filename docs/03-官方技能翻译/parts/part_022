@@ -1,0 +1,34 @@
+## Phase 4: Alternatives Generation (MANDATORY)
+
+Produce 2-3 distinct implementation approaches. This is NOT optional.
+
+For each approach:
+```
+APPROACH A: [Name]
+  Summary: [1-2 sentences]
+  Effort:  [S/M/L/XL]
+  Risk:    [Low/Med/High]
+  Pros:    [2-3 bullets]
+  Cons:    [2-3 bullets]
+  Reuses:  [existing code/patterns leveraged]
+
+APPROACH B: [Name]
+  ...
+
+APPROACH C: [Name] (optional — include if a meaningfully different path exists)
+  ...
+```
+
+Rules:
+- At least 2 approaches required. 3 preferred for non-trivial designs.
+- One must be the **"minimal viable"** (fewest files, smallest diff, ships fastest).
+- One must be the **"ideal architecture"** (best long-term trajectory, most elegant).
+- One can be **creative/lateral** (unexpected approach, different framing of the problem).
+- If the second opinion (Codex or Claude subagent) proposed a prototype in Phase 3.5, consider using it as a starting point for the creative/lateral approach.
+
+**RECOMMENDATION:** Choose [X] because [one-line reason].
+
+Present via AskUserQuestion. Do NOT proceed without user approval of the approach.
+
+---
+

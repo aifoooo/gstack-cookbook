@@ -1,0 +1,5 @@
+## Distribution Plan
+{how users get the deliverable — binary download, package manager, container image, web service, etc.}
+{CI/CD pipeline for building and publishing — GitHub Actions, manual release, auto-deploy on merge?}
+{omit this section if the deliverable is a web service with existing deployment pipeline}
+

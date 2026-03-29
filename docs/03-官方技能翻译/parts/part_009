@@ -1,0 +1,6 @@
+## What would make this a 10
+{one sentence}
+**Date:** {YYYY-MM-DD} | **Version:** {version} | **Skill:** /{skill}
+```
+Slug: lowercase hyphens, max 60 chars. Skip if exists. Max 3/session. File inline, don't stop.
+
