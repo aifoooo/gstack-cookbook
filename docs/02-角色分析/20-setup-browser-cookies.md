@@ -43,18 +43,28 @@
 ## 核心功能
 ### 支持的浏览器
 所有Chromium内核的浏览器都支持：
-- ✅ Google Chrome（默认浏览器）
-- ✅ Microsoft Edge
-- ✅ Brave Browser
-- ✅ Arc Browser
-- ✅ Opera / Opera GX
-- ✅ Vivaldi
-- ✅ 其他Chromium内核的浏览器
+- 
+✅ Google Chrome（默认浏览器）
+- 
+✅ Microsoft Edge
+- 
+✅ Brave Browser
+- 
+✅ Arc Browser
+- 
+✅ Opera / Opera GX
+- 
+✅ Vivaldi
+- 
+✅ 其他Chromium内核的浏览器
 
 ### 支持的操作系统
-- ✅ macOS：自动从钥匙串获取解密密钥，解密Cookie
-- ✅ Windows：使用DPAPI解密Cookie
-- ✅ Linux：使用libsecret/密钥环解密Cookie
+- 
+✅ macOS：自动从钥匙串获取解密密钥，解密Cookie
+- 
+✅ Windows：使用DPAPI解密Cookie
+- 
+✅ Linux：使用libsecret/密钥环解密Cookie
 
 ### 核心命令
 #### 1. 导入指定站点的Cookie
@@ -178,8 +188,13 @@ done
 - **Linux**：会弹出密钥环访问提示，输入密码允许即可
 
 ## 核心规则
+
 ❌ 不会泄露用户的任何敏感信息，所有Cookie数据都只在本地处理，不会上传
+
 ❌ 不会修改用户真实浏览器中的任何数据，只是读取Cookie，不会修改、删除
+
 ✅ 支持所有主流浏览器和操作系统，一键导入，不需要复杂操作
+
 ✅ 会话数据加密存储，只有本地用户可以访问
+
 ✅ 导入的会话只在当前任务中使用，任务结束后自动清除，不会残留

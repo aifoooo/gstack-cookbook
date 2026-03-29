@@ -136,24 +136,37 @@ cd my-existing-project
 
 ## 支持的技术栈和平台
 ### 前端框架
+
 ✅ React / Vue / Angular / Svelte
+
 ✅ Next.js / Nuxt.js / Gatsby / Remix
+
 ✅ 静态站点、SPA、SSR、SSG等各种渲染模式
 
 ### 后端技术
+
 ✅ Node.js / Python / Java / Go / Rust / PHP
+
 ✅ Spring Boot / Django / Express / Gin / FastAPI
+
 ✅ 单体应用、微服务、Serverless函数
 
 ### 部署平台
+
 ✅ Vercel / Netlify / Cloudflare Pages
+
 ✅ AWS / Azure / GCP / 阿里云 / 腾讯云
+
 ✅ Docker / Docker Compose / K8s / Rancher
+
 ✅ 虚拟机 / 物理机 / 自建机房
+
 ✅ Serverless平台 / 边缘计算平台
 
 ### CI/CD系统
+
 ✅ GitHub Actions / GitLab CI / Jenkins
+
 ✅ 阿里云效 / 腾讯云CI / 自建CI系统
 
 ## 输出物
@@ -165,8 +178,13 @@ cd my-existing-project
 - 验证脚本：测试配置是否正确的脚本
 
 ## 核心规则
+
 ❌ 不生成不符合最佳实践的配置，所有配置都是生产可用的
+
 ❌ 不生成冗余、复杂的配置，保持简单、易用、可维护
+
 ✅ 自动检测尽可能多的信息，减少用户的输入和配置工作
+
 ✅ 生成的配置结构清晰，注释完善，容易理解和修改
+
 ✅ 支持各种主流的技术栈和部署平台，覆盖绝大多数场景
