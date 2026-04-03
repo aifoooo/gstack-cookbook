@@ -50,4 +50,7 @@
 28. [/setup-deploy：部署配置工具](docs/02-角色分析/28-setup-deploy.md)
 29. [/gstack-upgrade：自动升级工具](docs/02-角色分析/29-gstack-upgrade.md)
 
+### 第三篇：实战指南
+- [技能选择指南：什么情况用什么skill](docs/03-技能选择指南/什么情况用什么skill.md)
+
 
